@@ -59,7 +59,7 @@ const Nav = ({ isHome }) => {
                     <IconLogo width={36.581} height={50.186} />
                   </a>
                 ) : (
-                  <Link aria-label="home">
+                  <Link aria-label="home" href="">
                     <IconLogo />
                   </Link>
                 )}

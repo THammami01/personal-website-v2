@@ -25,7 +25,7 @@ const Featured = () => {
 
   return (
     <section id="projects">
-      <NumberedHeading ref={revealTitle}>Featured Personal Projects</NumberedHeading>
+      <NumberedHeading ref={revealTitle}>Side Projects</NumberedHeading>
 
       <div>
         {featuredProjects &&

@@ -1,11 +1,15 @@
 /* eslint-disable react/prop-types */
 import { ThemeProvider } from 'styled-components';
 import Router from 'next/router';
+import dynamic from 'next/dynamic';
 import DefaultLayout from '@layouts/default';
 import GlobalStyles from '@styles/globals';
 import theme from '@themes/dark';
 import * as gtag from '@lib/gtag';
-import AnimatedCursor from 'react-animated-cursor';
+
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+  ssr: false,
+});
 
 // Notice how we track pageview when route is changed
 Router.events.on('routeChangeComplete', (url) => gtag.pageview(url));

@@ -34,14 +34,6 @@ module.exports = {
       name: 'Stack Overflow',
       url: 'https://stackoverflow.com/users/11542205/tarek-hammami',
     },
-    // {
-    //   name: 'Instagram',
-    //   url: 'https://www.instagram.com/jrgarciadev',
-    // },
-    // {
-    //   name: 'Twitter',
-    //   url: 'https://twitter.com/jrgarciadev',
-    // },
   ],
 
   navLinks: [

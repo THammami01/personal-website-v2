@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 import { useEffect, useRef } from 'react';
 import { NumberedHeading } from '@common/styles';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { skills } from '@config';
 import { srConfig } from '@config/sr';
 import { StyledAboutSection, StyledText, StyledPic } from './styles';
@@ -53,7 +53,7 @@ const About = () => {
 
         <StyledPic>
           <div className="wrapper">
-            <Image width={200} height={200} blu src="/avatar.png" alt="Avatar" className="img" />
+            <img width={200} height={200} src="/avatar.png" alt="Avatar" className="img" />
           </div>
         </StyledPic>
       </div>

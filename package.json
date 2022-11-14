@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "type-check": "tsc --pretty --noEmit",
     "format": "prettier --write .",
@@ -22,6 +22,7 @@
     ]
   },
   "dependencies": {
+    "@apollo/client": "^3.2.2",
     "animejs": "^3.2.1",
     "graphql": "^15.3.0",
     "intersection-observer": "^0.11.0",

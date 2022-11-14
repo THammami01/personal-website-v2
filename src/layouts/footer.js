@@ -3,7 +3,7 @@ import { useEffect, useRef } from 'react';
 import { Icon } from '@components/Icons';
 import { socialMedia } from '@config';
 import { srConfig } from '@config/sr';
-import Image from 'next/image';
+// import Image from 'next/image';
 import { StyledFooter, StyledSocialLinks, StyledMadeWith, StyledCredit } from './styles';
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
       <StyledMadeWith>
         <p>Made with</p>
         <a rel="noreferrer" target="_blank" href="https://nextjs.org/">
-          <Image src="/nextjs-13-white-logo.svg" width={100} height={100} />
+          <img src="/nextjs-13-white-logo.svg" alt="Next.js 13" width={100} height={100} />
         </a>
       </StyledMadeWith>
 

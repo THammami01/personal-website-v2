@@ -113,7 +113,7 @@ const Menu = () => {
                             <div>{name}</div>
                           </a>
                         ) : (
-                          <Link href={url}>{name}</Link>
+                          <Link href={url ?? ''}>{name}</Link>
                         )}
                       </li>
                     </>

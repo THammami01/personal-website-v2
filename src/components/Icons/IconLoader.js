@@ -1,11 +1,12 @@
 /* eslint-disable max-len */
 import React from 'react';
 import { withTheme } from 'styled-components';
-import PropTypes from 'prop-types';
-import Image from 'next/image';
+// import PropTypes from 'prop-types';
+// import Image from 'next/image';
 
-const IconLoader = ({ theme }) => (
-  <Image id="logo" src="/logo.png" width={75} height={75} />
+const IconLoader = () => (
+  // { theme }
+  <img id="logo" src="/logo.png" width={75} height={75} alt="Logo" />
   // <svg
   //   id="logo"
   //   xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +29,8 @@ const IconLoader = ({ theme }) => (
   // </svg>
 );
 
-IconLoader.propTypes = {
-  theme: PropTypes.object,
-};
+// IconLoader.propTypes = {
+//   theme: PropTypes.object,
+// };
 
 export default withTheme(IconLoader);
