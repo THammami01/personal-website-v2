@@ -110,7 +110,7 @@ const Projects = () => {
             );
           })}
       </TransitionGroup>
-      {projects && projects.length > 6 && (
+      {projects && projects.length > 4 && (
         <button type="button" className="more-button" onClick={() => setShowMore(!showMore)}>
           Show {showMore ? 'Less' : 'More'}
         </button>

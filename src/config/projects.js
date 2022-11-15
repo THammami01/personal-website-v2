@@ -15,7 +15,7 @@ module.exports = [
     title: 'Auto Cert. Generator and Sender',
     github: 'https://github.com/THammami01/auto-cert-generator-and-sender',
     descriptionHtml:
-      'A script that generates certificates from an image template and a CSV file containing a list of trainings attendees, to be sent as an attachment in a customized email.',
+      'A script that generates certificates from an image template and a CSV file containing a list of trainings attendees, to be sent as attachments in a customized email.',
     techs: ['Python', 'Pillow'],
   },
   {
@@ -27,10 +27,9 @@ module.exports = [
   },
   {
     title: 'Minimal React Vite Starter',
-    external: 'https://tarekhammami.me/w3s-typing-speed-test-clone/',
-    github: 'https://github.com/THammami01/w3s-typing-speed-test-clone',
-    descriptionHtml: 'A clone webpage of a 1-minute typing speed test built as a PWA.',
-    techs: ['HTML', 'CSS', 'JavaScript', 'PWA'],
+    github: 'https://github.com/THammami01/minimal-react-vite-starter',
+    descriptionHtml: 'Minimal React Vite starter for your next web application.',
+    techs: ['Vite', 'React', 'TS', 'Redux', 'i18n', 'Prettier', 'Husky'],
   },
   {
     title: 'Code Injector',
@@ -54,38 +53,3 @@ module.exports = [
     techs: ['React Native', 'Expo', '<Future Work 💡>'],
   },
 ];
-
-// module.exports = [
-//   {
-//     title: 'Auto Cert Generator',
-//     external: 'https://nextjs-todo-list.vercel.app/',
-//     github: 'https://github.com/jrgarciadev/nextjs-todo-list',
-//     descriptionHtml: 'Is a social Web & PWA application to upload, share and like pets photos',
-//     techs: ['Competitive Programming', 'Algorithms', 'DSA'],
-//   },
-//   {
-//     title: 'Auto Cert Generatr',
-//     external: 'https://nextjs-todo-list.vercel.app/',
-//     github: 'https://github.com/jrgarciadev/nextjs-todo-list',
-//     descriptionHtml: 'Is a social Web & PWA application to upload, share and like pets photos',
-//     techs: ['Competitive Programming', 'Algorithms', 'DSA'],
-//   },
-//   {
-//     title: 'Auto Cert Generato',
-//     external: 'https://nextjs-todo-list.vercel.app/',
-//     github: 'https://github.com/jrgarciadev/nextjs-todo-list',
-//     descriptionHtml: 'Is a social Web & PWA application to upload, share and like pets photos',
-//     techs: ['Competitive Programming', 'Algorithms', 'DSA'],
-//   },
-//   {
-//     title: 'Solutions to 200+',
-//     external: 'https://nextjs-todo-list.vercel.app/',
-//     github: 'https://github.com/jrgarciadev/nextjs-todo-list',
-//     descriptionHtml:
-//       "<a target='_blank' href='https://github.com/THammami01/leetcode-solutions'>My solutions to LeetCode problems</a><br />" +
-//       "<a target='_blank' href='https://github.com/THammami01/hackerrank-solutions'>My solutions to HackerRank problems</a><br />" +
-//       "<a target='_blank' href='https://github.com/THammami01/freecodecamp-solutions'>My solutions to freeCodeCamp problems</a><br />" +
-//       "<a target='_blank' href='https://github.com/THammami01/sololearn-solutions'>My solutions to SoloLearn problems</a>",
-//     techs: ['Competitive Programming', 'Algorithms', 'DSA'],
-//   },
-// ];
