@@ -52,6 +52,20 @@ const BaseLayout = ({ children }) => {
         />
         <meta property="og:image" content="https://thammami01.github.io/logo.png" />
         <meta property="twitter:image" content="https://thammami01.github.io/logo.png" />
+
+        <script
+          // eslint-disable-next-line react/no-danger
+          dangerouslySetInnerHTML={{
+            __html: `
+              if (window.location.hostname === 'tarekhammami.me') {
+                window.dataLayer = window.dataLayer || [];
+                const gtag = () => dataLayer.push(arguments);
+                gtag('js', new Date());
+                gtag('config', 'G-2M9MR2B9EJ');
+              }
+            `,
+          }}
+        />
       </Head>
       {children}
     </div>
