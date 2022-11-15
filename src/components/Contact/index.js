@@ -23,15 +23,17 @@ const Contact = () => {
         {/* Although I&apos;m not currently looking for any new opportunities, .
         Whether you have a question or just want to say hi, I&apos;ll try my best to get back to
         you! */}
-        I am constantly seeking for new opportunities;
+        I am now looking to join a new team of creative developers.
         <br />
-        If you believe I would be a good fit for your team or company,
+        If you think we might be a good fit for one another,
         <br />
         do not hesitate to contact me right away.
         <br />
         My inbox is always open if I ever can be of any help;
         <br />
-        whether it is a question, or just want to say Hi!, I&apos;ll definitely get back.
+        whether it is a question, or just want to say &quot;Hi!&quot;,
+        <br />
+        I&apos;ll definitely get back.
       </p>
 
       <a

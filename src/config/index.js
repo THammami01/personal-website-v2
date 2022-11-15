@@ -8,8 +8,8 @@ module.exports = {
   projects,
   skills: [
     'Python',
-    'NodeJS',
     'TypeScript',
+    'Node.js',
     'React',
     'Next.js',
     'MongoDB',
@@ -49,6 +49,11 @@ module.exports = {
       name: 'Contact',
       url: '/#contact',
     },
+    // {
+    //   name: 'Certs',
+    //   url: 'https://thammami01.github.io/online-certificates',
+    //   isExternal: true,
+    // },
     {
       name: 'Blog',
       url: 'https://dev.to/thammami01',

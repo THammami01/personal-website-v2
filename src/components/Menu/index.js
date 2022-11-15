@@ -105,18 +105,16 @@ const Menu = () => {
               <ol>
                 {navLinks.map(({ url, name, isExternal }) => {
                   return (
-                    <>
-                      {/* eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions */}
-                      <li key={url} onClick={() => setMenuOpen(false)}>
-                        {isExternal ? (
-                          <a rel="noreferrer" target="_blank" href={url}>
-                            <div>{name}</div>
-                          </a>
-                        ) : (
-                          <Link href={url ?? ''}>{name}</Link>
-                        )}
-                      </li>
-                    </>
+                    // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
+                    <li key={url} onClick={() => setMenuOpen(false)}>
+                      {isExternal ? (
+                        <a rel="noreferrer" target="_blank" href={url}>
+                          <div>{name}</div>
+                        </a>
+                      ) : (
+                        <Link href={url ?? ''}>{name}</Link>
+                      )}
+                    </li>
                   );
                 })}
               </ol>
