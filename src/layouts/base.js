@@ -44,7 +44,7 @@ const BaseLayout = ({ children }) => {
         <meta property="og:url" content="https://thammami01.github.io" />
         <meta
           name="description"
-          content="Hello! I'm Tarek, a Software Developer based in Buenos Aires, Argentina. I enjoy creating beautiful and reliable applications for internet and phones. My goal is to always build scalable products and performant experiences."
+          content="Hello! I'm Tarek, a Software Developer based in Tunis, Tunisia."
         />
         <meta
           name="keywords"
@@ -53,13 +53,14 @@ const BaseLayout = ({ children }) => {
         <meta property="og:image" content="https://thammami01.github.io/logo.png" />
         <meta property="twitter:image" content="https://thammami01.github.io/logo.png" />
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-2M9MR2B9EJ" />
         <script
           // eslint-disable-next-line react/no-danger
           dangerouslySetInnerHTML={{
             __html: `
               if (window.location.hostname === 'tarekhammami.me') {
                 window.dataLayer = window.dataLayer || [];
-                const gtag = () => dataLayer.push(arguments);
+                function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
                 gtag('config', 'G-2M9MR2B9EJ');
               }

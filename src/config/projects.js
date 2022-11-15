@@ -26,6 +26,13 @@ module.exports = [
     techs: ['HTML', 'CSS', 'JavaScript', 'PWA'],
   },
   {
+    title: 'Minimal React Vite Starter',
+    external: 'https://tarekhammami.me/w3s-typing-speed-test-clone/',
+    github: 'https://github.com/THammami01/w3s-typing-speed-test-clone',
+    descriptionHtml: 'A clone webpage of a 1-minute typing speed test built as a PWA.',
+    techs: ['HTML', 'CSS', 'JavaScript', 'PWA'],
+  },
+  {
     title: 'Code Injector',
     github: 'https://github.com/THammami01/code-injector-ce',
     descriptionHtml:
