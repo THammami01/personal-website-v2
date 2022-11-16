@@ -19,7 +19,14 @@ const IconLogo = () =>
 
     return (
       // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
-      <img src="/logo.png" alt="Logo" width={32} height={32} onClick={handleOnClick} />
+      <img
+        src="/logo.png"
+        alt="Logo"
+        width={32}
+        height={32}
+        onClick={handleOnClick}
+        style={{ transform: 'translateY(6px)' }}
+      />
 
       // <svg width={width} height={height} viewBox="0 0 106.581 120.186" {...props}>
       //   <g fill={theme.brand.primary}>
