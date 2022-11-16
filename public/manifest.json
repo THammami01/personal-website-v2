@@ -1,0 +1,16 @@
+{
+  "name": "Tarek Hammami — Software Developer",
+  "short_name": "Tarek Hammami — Software Developer",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#120e26",
+  "theme_color": "#120e26"
+}

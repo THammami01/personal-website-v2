@@ -6,6 +6,7 @@ import DefaultLayout from '@layouts/default';
 import GlobalStyles from '@styles/globals';
 import theme from '@themes/dark';
 import * as gtag from '@lib/gtag';
+import { useEffect } from 'react';
 
 const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
   ssr: false,
@@ -16,6 +17,20 @@ Router.events.on('routeChangeComplete', (url) => gtag.pageview(url));
 
 export default function App({ Component, pageProps }) {
   const Layout = Component.Layout || DefaultLayout;
+
+  useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker
+          .register('/SW.js')
+          // eslint-disable-next-line no-console
+          .then(() => console.log('service worker registered'))
+          // eslint-disable-next-line no-console
+          .catch((err) => console.log('service worker not registered', err));
+      });
+    }
+  }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <Layout>
