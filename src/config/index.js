@@ -49,11 +49,11 @@ module.exports = {
       name: 'Contact',
       url: '/#contact',
     },
-    {
-      name: 'Certs',
-      url: 'https://thammami01.github.io/online-certificates',
-      isExternal: true,
-    },
+    // {
+    //   name: 'Certs',
+    //   url: 'https://thammami01.github.io/online-certificates',
+    //   isExternal: true,
+    // },
     {
       name: 'Blog',
       url: 'https://dev.to/thammami01',
