@@ -2,24 +2,24 @@
 module.exports = [
   {
     title: 'Institute Records MS',
-    cover: '/bg-placeholder.png',
+    cover: '/bg-05.png',
     github: 'https://github.com/THammami01/institute-records-ms',
     external: 'https://github.com/THammami01/institute-records-ms/blob/main/SGRN.exe',
     descriptionHtml:
       'A management system that allows easy access to students data and documents with a few clicks or a quick search.<br /><a target="_blank" rel="noreferrer" href="https://github.com/THammami01/institute-records-ms/blob/main/SGRN.exe">Download the app (only for Windows)</a>',
-    techs: ['JDK 11', 'JavaFX', 'MariaDB', 'Scene Builder'],
+    techs: ['JDK 11', 'JavaFX', 'SQLite', 'Scene Builder'],
   },
   {
     title: 'Youtube Ad Blocker',
-    cover: '/bg-placeholder.png',
-    github: 'https://github.com/THammami01',
+    cover: '/bg-06.png',
+    github: 'https://github.com/THammami01/youtube-ad-blocker',
     descriptionHtml:
       'An extension for Chromium-based broswers that skips video ads and hides other 5 types of banner ads on YouTube, as well as displays statistics for the skipped ones (number and duration per past day, month and the total).<br /><a target="_blank" rel="noreferrer" href="https://github.com/THammami01/youtube-ad-blocker">Download the extension</a>',
     techs: ['JavaScript', 'Tailwind CSS', 'Chrome APIs'],
   },
   {
     title: 'RECTN',
-    cover: '/bg-placeholder.png',
+    cover: '/bg-03.png',
     github: 'https://github.com/THammami01/rectn',
     external: 'https://rectn.herokuapp.com',
     descriptionHtml:
@@ -28,7 +28,7 @@ module.exports = [
   },
   {
     title: 'Sci-Docs Graph App',
-    cover: '/bg-placeholder.png',
+    cover: '/bg-04.png',
     github: 'https://github.com/THammami01/graph-app-server',
     // external: 'https://thammami01.github.io',
     // descriptionHtml:
@@ -45,7 +45,7 @@ module.exports = [
   },
   {
     title: 'Typing Speed Increaser',
-    cover: '/bg-placeholder.png',
+    cover: '/bg-02.png',
     github: 'https://github.com/THammami01/typing-speed-increaser',
     // external: 'https://thammami01.github.io',
     // descriptionHtml:
@@ -56,7 +56,7 @@ module.exports = [
   },
   {
     title: 'Dr. Office MS',
-    cover: '/bg-placeholder.png',
+    cover: '/bg-01.png',
     github: 'https://github.com/THammami01/dr-office-ms',
     // external: 'https://thammami01.github.io',
     // descriptionHtml:
