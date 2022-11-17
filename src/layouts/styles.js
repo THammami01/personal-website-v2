@@ -84,7 +84,7 @@ export const StyledSocialLinks = styled.div`
     display: block;
     width: 100%;
     max-width: 270px;
-    margin: 0 auto 10px;
+    margin: 0 auto 48px;
     color: ${(props) => props.theme.text.accent};
   }
 
