@@ -55,14 +55,14 @@ module.exports = [
     techs: ['Python', 'Tkinter', 'Shelve'],
   },
   {
-    title: 'Dr. Office MS',
+    title: 'Medical Office MS',
     cover: '/bg-01.png',
-    github: 'https://github.com/THammami01/dr-office-ms',
+    github: 'https://github.com/THammami01/medical-office-ms',
     // external: 'https://thammami01.github.io',
     // descriptionHtml:
     //   'Beautiful and pixel perfect React Icon Library, <a target="_blank" rel="noreferrer" href="https://piqodesign.gumroad.com/l/iconly">Iconly</a> is one of the options that is being used by designers and developers today, so I decided to create a library for React / Next.js / Gatsby that facilitates its use and that also allows us to customize any icon according to our needs.  <a target="_blank" rel="noreferrer" href="https://dev.to/jrgarciadev/beautiful-and-pixel-perfect-react-icon-library-2fnd">Blog Post</a>',
     descriptionHtml:
-      'A web-based desktop application for a doctor and their secretary to use for patient data management; to search, filter, paginate, back up and restore records.<br /><a target="_blank" rel="noreferrer" href="https://github.com/THammami01/dr-office-ms">Download the app (only for Windows)</a>',
+      'A web-based desktop application for a medical office to be used for patient data management; to search, filter, paginate, back up and restore records.<br /><a target="_blank" rel="noreferrer" href="https://github.com/THammami01/dr-office-ms">Download the app (only for Windows)</a>',
     techs: ['Node.js', 'Angular', 'PrimeNG', 'Electron', 'MySQL'],
   },
 ];
