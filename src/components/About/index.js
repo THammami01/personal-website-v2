@@ -24,7 +24,8 @@ const About = () => {
             {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
             <p>Hello there, world! 👋</p>
             <br />
-            <p>My name is Tarek and I am a Software Developer based in Tunis, Tunisia.</p>
+            {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
+            <p>My name is Tarek and I am a Software Developer based in Tunis, Tunisia. 🇹🇳</p>
             <br />
             <p>
               I am an independent, well-organized person, and a problem solver with a keen eye for
@@ -34,9 +35,10 @@ const About = () => {
             <br />
             <p>
               I&apos;m interested in the full software developement spectrum; including backend and
-              microservices architecture, desktop/web/mobile frontends, IT automation and very
-              recently ML. I like to work on innovative, reliable, and visually appealing projects
-              with like-minded people and for users all over the world.
+              microservices architecture, IT automation, desktop/web/mobile frontends and even
+              browser extensions, and very recently AI/ML. I like to work on innovative, reliable,
+              and visually appealing projects with like-minded people and for users all over the
+              world.
             </p>
             <br />
             {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}

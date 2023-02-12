@@ -15,12 +15,18 @@ const Hero = () => {
 
   const one = <h1>Welcome, I&apos;m</h1>;
   const two = <StyledBigTitle>Tarek Hammami</StyledBigTitle>;
-  const three = <StyledMediumTitle slate>I turn ideas into real-world apps.</StyledMediumTitle>;
+  // eslint-disable-next-line jsx-a11y/accessible-emoji
+  const three = <StyledMediumTitle slate>and.. I bring ideas to life. 🚀</StyledMediumTitle>;
   const four = (
+    // eslint-disable-next-line jsx-a11y/accessible-emoji
     <p>
-      I am a passionate, dedicated, enthusiastic and polyglot student developer, self-learner, and
+      I&apos;m a passionate and dedicated student developer who transforms ideas into reality
+      through coding. I&apos;m a self-taught and polyglot programmer, always eager to compete with
+      others and contribute to OSS. My goal is to use my skills to help people solve problems and
+      make their lives easier. 💻🙌🏼
+      {/* I am a passionate, dedicated, enthusiastic and polyglot student developer, self-learner, and
       coding addict. I like to compete with programmers, contribute to OSS, and help people solve
-      problems using code.
+      problems using code. */}
     </p>
   );
   const five = (

@@ -1,2 +1,3 @@
 /** An empty service worker! */
-self.addEventListener('fetch', (event) => {});
+// eslint-disable-next-line no-restricted-globals
+self.addEventListener('fetch', () => {});

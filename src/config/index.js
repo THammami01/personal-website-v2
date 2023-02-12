@@ -9,13 +9,16 @@ module.exports = {
   skills: [
     'Python',
     'TypeScript',
+    'Java',
     'Node.js',
     'React',
     'Next.js',
+    'Quarkus',
     'MongoDB',
-    'Bash',
     'Docker',
-    'AWS',
+    'Bash',
+    'Ubuntu',
+    'AWS & GCP',
   ],
   socialMedia: [
     {

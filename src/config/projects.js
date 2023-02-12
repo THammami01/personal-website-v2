@@ -19,6 +19,13 @@ module.exports = [
     techs: ['Python', 'Pillow'],
   },
   {
+    title: 'Chrome Tabs Saver',
+    github: 'https://github.com/THammami01/tabs-saver-ce',
+    descriptionHtml:
+      "A Chrome extension that saves open tabs so you don't lose them or have to dig through your history if you fail to restore them using the native feature.",
+    techs: ['Vite', 'React', 'TS', 'Chrome APIs'],
+  },
+  {
     title: 'W3School Typing Speed Test Clone',
     external: 'https://tarekhammami.me/w3s-typing-speed-test-clone/',
     github: 'https://github.com/THammami01/w3s-typing-speed-test-clone',
@@ -37,13 +44,6 @@ module.exports = [
     descriptionHtml:
       'A Chrome extension that injects scripts and stylesheets into any website to be run on load.',
     techs: ['<Undergoing Development 💻>'],
-  },
-  {
-    title: 'Tabs Saver',
-    github: 'https://github.com/THammami01/tabs-saver-ce',
-    descriptionHtml:
-      "A Chrome extension that saves open tabs so you don't lose them or have to dig through your history if you fail to restore them using the native feature.",
-    techs: ['<Future Work 💡>'],
   },
   {
     title: 'YouTube Songs Offline',
