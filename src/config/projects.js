@@ -19,11 +19,18 @@ module.exports = [
     techs: ['Python', 'Pillow'],
   },
   {
-    title: 'Chrome Tabs Saver',
+    title: 'Tabs Saver',
     github: 'https://github.com/THammami01/tabs-saver-ce',
     descriptionHtml:
       "A Chrome extension that saves open tabs so you don't lose them or have to dig through your history if you fail to restore them using the native feature.",
     techs: ['Vite', 'React', 'TS', 'Chrome APIs'],
+  },
+  {
+    title: 'University Library MS',
+    external: 'https://github.com/THammami01/ulms/releases/tag/v1.0.0-beta',
+    github: 'https://github.com/THammami01/ulms',
+    descriptionHtml: 'A simple library management system for handling books, borrowers, and loans.',
+    techs: ['JDK 11', 'JavaFX', 'SQLite', 'Scene Builder'],
   },
   {
     title: 'W3School Typing Speed Test Clone',
